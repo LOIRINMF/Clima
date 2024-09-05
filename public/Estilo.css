@@ -1,7 +1,32 @@
-body{
-background-color: gray;
+body {
+    background-color: gray;
+
 }
 
 .header {
-font-size: 2em;
+    font-size: 2em;
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+main {
+    background-color: rgb(110, 204, 233);
+
+    justify-content: center;
+    align-items: center;
+
+    & .box {
+        background-color: red;
+
+        & input {
+            font-size: 1em;
+        }
+    }
+
+    & .Nome-c {
+        text-align: center;
+    }
 }
